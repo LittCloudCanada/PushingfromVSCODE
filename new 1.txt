@@ -1,47 +1,26 @@
-Working with Ether.js
-create a folder > call it interacting with Smart Contracts
-Create a file ether-demo.js
-The in ter terminal in VS Code map the folder interacting with Smart Contracts use the command " npm init" to iniziyalize  aNEW PROPJEC
-Then it will automatically create a package.json file
-then use this command > npm install --save ethers to install ether.js https://docs.ethers.org/v5/getting-started/  install it with the steps below
-Now inside ether-demo.js you need to import the ether package but before you do it, modify the package.json by adding type " modue at the end of the code
-{
-  "name": "interacting-with-smaqrt-contracts",
-  "version": "1.0.0",
-  "description": "",
-  "main": "etherdemo.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "ethers": "^6.6.4"
-  },
-  "type": "module" this one was added.
-}
-
-now modify the ether-demo.js as mentioned to import ether 
-import { ethers} from "Ethers" from file ether-demo.js
+nmp install --save ethers for the ethers library
+nmp install --save DOTENV to install the library so you can protect your password and API keys to about being uploaded to github or repositories. You Must create a .Env file add exclusiuons there.
+.gitignore file to exclude what you dont want to be uploaded to the repository.
 
 
-2-. Then connecting to an Infura Node
-Create an account and create a [roject for web 3, call it blockchainexpert or anything you want.
-Get the API key.
-now add it to the ether-demo.js file or code
-import { ethers} from "Ethers"
-const API_KEY = "0456bc6e00a845daa237beaf5f9f6c4c"
- add to the code the network that you will connect " homestead" which is basicall the mainnet in Ethereun and the provider which ins Infura this time.
- import { ethers} from "Ethers"
-const API_KEY = "0456bc6e00a845daa237beaf5f9f6c4c"
-const  network = "homestead"
-const provider = ethers_provider.infuraProvider(network, API_KEY)
-Now and the code to get the block number and log it
-import { ethers} from "Ethers"
-const API_KEY = "0456bc6e00a845daa237beaf5f9f6c4c"
-const  network = "homestead"
-const provider = ethers_provider.infuraProvider(network, API_KEY)
-const blocknumber = await provider.getblocknumber();
-console.log(blocknumber)
- 
-Then Connecting to Metamask
+
+
+
+
+
+
+for GitHub commands from terminal ujsing VS code samples and main commands:
+echo "# PushingfromVSCODE" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/LittCloudCanada/PushingfromVSCODE.git
+git push -u origin main
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/LittCloudCanada/PushingfromVSCODE.git
+git branch -M main
+git push -u origin main
+git config --list
