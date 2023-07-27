@@ -1,5 +1,5 @@
-nmp install --save ethers for the ethers library
-nmp install --save DOTENV to install the library so you can protect your password and API keys to about being uploaded to github or repositories. You Must create a .Env file add exclusiuons there.
+npm install --save ethers for the ethers library
+npm install --save DOTENV to install the library so you can protect your password and API keys to about being uploaded to github or repositories. You Must create a .Env file add exclusiuons there.
 .gitignore file to exclude what you dont want to be uploaded to the repository.
 
 
@@ -24,3 +24,8 @@ git remote add origin https://github.com/LittCloudCanada/PushingfromVSCODE.git
 git branch -M main
 git push -u origin main
 git config --list
+
+Install remix IDE in VS code extensions " REMIX-LIGHT" , then for the folder that u will be developing in Solidit run this in the terminal > https://remix-ide.readthedocs.io/en/latest/remixd.html#update-to-the-latest-remixd 
+ uninstall the old one: npm uninstall -g remixd
+ install the new: npm install -g @remix-project/remixd
+remixd
