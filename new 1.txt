@@ -2,12 +2,13 @@ npm install --save ethers for the ethers library
 npm install --save DOTENV to install the library so you can protect your password and API keys to about being uploaded to github or repositories. You Must create a .Env file add exclusiuons there.
 .gitignore file to exclude what you dont want to be uploaded to the repository.
 
+Install Truffle with the VS CODE EXTENSION > https://trufflesuite.com/blog/build-on-web3-with-truffle-vs-code-extension/
 
-
-
-
-
-
+Install HardHat https://hardhat.org/
+create a new folder> a project
+npm init command in the terminal and assing a name
+npm install --save-dev hardhat
+npx hardhat
 
 for GitHub commands from terminal ujsing VS code samples and main commands:
 echo "# PushingfromVSCODE" >> README.md
